@@ -1,0 +1,26 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Gestion des factures</title>
+    <link th:ref="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+<h1>Bienvenu dans la page de gestion des factures</h1>
+<h2>Actions disponibles :</h2>
+<ul>
+    <li><a href="create-form">Ajout de facture</a></li>
+</ul>
+<section class="container">
+    <div class="left-half">
+        <article id="invoice-list">
+
+        </article>
+    </div>
+    <div class="right-half">
+        <article id="invoice-detail">
+
+        </article>
+    </div>
+</section>
+<script th:src="@{/js/script.js}" type="text/javascript"></script>
+</body>
+</html>
